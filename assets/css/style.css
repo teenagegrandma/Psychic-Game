@@ -1,0 +1,65 @@
+@import url('');
+
+body {
+	font-family: 
+	font-size: 16px;
+	background: url("");
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family:
+	font-weight: 
+}
+
+h1 {
+	font-size: 36px;
+}
+
+h2 {
+	font-size: 27px;
+}
+
+h3 {
+	font-size: 17px;
+}
+
+h4 {
+	font-size: 30px;
+}
+
+.navbar {
+	height: 5em;
+	background: pink;
+	padding: 1em 0;
+}
+
+.nav-wrapper >a {
+	display: inline;
+	float: right;
+	color: white;
+	text-decoration: none;
+}
+
+.title, .title-description {
+	padding: .5em 0px;
+}
+
+.game-wrapper, .nav-wrapper, .title-alignment {
+	max-width: 85%;
+	min-width: 300px;
+	margin: 0 auto;
+}
+
+.game-wrapper > div {
+	margin: 10px 0;
+}
+
+.game-wrapper > div > p {
+	margin: 15px 0;
+}
+
+footer {
+	margin: 0 auto;
+	text-align: center;
+}
+
