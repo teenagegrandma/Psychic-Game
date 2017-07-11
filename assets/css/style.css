@@ -1,14 +1,15 @@
-@import url('');
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+');
 
 body {
-	font-family: 
+	font-family: 'Nunito', sans-serif;
 	font-size: 16px;
 	background: url("");
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family:
-	font-weight: 
+	font-family: 'Nunito', sans-serif;
+	font-weight: 750;
 }
 
 h1 {
@@ -58,8 +59,13 @@ h4 {
 	margin: 15px 0;
 }
 
+p {
+	font-family: 'Nunito', sans-serif;
+}
+
 footer {
 	margin: 0 auto;
 	text-align: center;
+	font-family: 'Nunito', sans-serif;
 }
 
