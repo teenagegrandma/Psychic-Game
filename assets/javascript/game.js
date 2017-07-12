@@ -1,15 +1,13 @@
 var choices = ['p', 's', 'y', 'c', 'h', 'i', 'g', 'a', 'm', 'e'];
 var playerChoice = '';
-var computerChoice = getRandomInt(0, 9);
 var totalWins = 0;
 var totalLosses = 0;
 var guessesLeft = 3;
 
 var choiceLetters = ['p', 's', 'y', 'c', 'h', 'i', 'g', 'a', 'm', 'e'];
 for (var i = choiceLetters.length - 1; i >= 0; i--) {
-	console.log(choiceLetters[i])
+	console.log(choiceLetters[i]);
 }
-
 
 var yourChoices = [];
 
@@ -19,12 +17,15 @@ function getRandomInt(min, max) {
 	return letter  
 }
 
+var computerChoice = getRandomInt(0, 9);
+
+
 function didPlayerWin(player, computer) {
 	if(player === computer) {
 		totalWins += 1;
 		return "Win";
 	}
-	if(player)
+	if(player) 
 	return "Invalid Choice";
 }
 
@@ -55,7 +56,7 @@ document.onkeyup = function(event) {
 	}
 
 
-	document.getElementById('totalWins').innerHTML = "Wins: " + wins;
-	document.getElementById('totalLosses').innerHTML = "Losses: " + losses;
-	document.getElementById('guessesLeft').innerHTML = "Guesses left: " + guesses;
+	document.getElementById('win-total-insert').innerHTML = "Wins: " + totalWins;
+	document.getElementById('loss-total-insert').innerHTML = "Losses: " + totalLosses;
+	document.getElementById('guessesLeft').innerHTML = "Guesses left: " + guessesLeft;
 }
